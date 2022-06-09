@@ -21,20 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: url("../img/love-is.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}/*
-.img-bkg{
-  background: url("../img/love-background.jpg");
-height: 300px;
-width: 100%;
-z-index:-1;
-background-position: center;
-background-size: contain;
-position: absolute;
+  background: #e3e3e3;
 }
 /*---------- CONTENT AREA ----------*/
 
@@ -71,22 +58,10 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background: url("../img/juneteenth.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-  }
-
-  .img-bkg {
-    background: #ffffff; 
-    height: 300px;
-    width: 100%;
-    z-index:-1;
-    background-size: contain;
-    position: absolute;
-  }
-  
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+  }  
   
   #column-1 {
     background-color: red;
@@ -110,12 +85,11 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background: url("../img/melanin-iq.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative; 
- }
+    height: 300px;
+    width: 100%;
+    background: #e3e3e3; 
+  }
+  
   #column-1 {
     background-color: rgb(233, 202, 161);
   }
